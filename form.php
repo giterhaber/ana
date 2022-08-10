@@ -14,20 +14,6 @@
 
 </head>
 <body>
-    <br>
-   <input type="text" id="inputStatus">
-
-     <button id="button">edit</button>
-
-
-     <div id="editSection"></div>
-    <div id="editSection2"></div>
-
-     <br><br>
-
-    <button style="display: none" id='thebutton'>the button</button>
-    <p id='thepara'></p>
-    
     <h1>test</h1>
 
     <form id="accountForm">

@@ -1,31 +1,3 @@
-const input = document.querySelector('#input');
-const button = document.querySelector('#button');
-const theButton = document.querySelector('#thebutton');
-const thePara = document.querySelector('#thepara');
-
-
-console.log('y')
-
-
-// function inputValue(value) {
-
-//     input.setAttribute('value', `${value}`)
-//     console.log('good')
-//     return value;    
-// }
-
-// inputValue('amenno')
-
-//thebutton
-// function echo() {
-
-// }
-
-// theButton.addEventListener('click', echo)
-
-
-//form add account
-
     $("#accountForm").on("submit", function (e) {
     var dataString = $(this).serialize();
      
@@ -121,12 +93,3 @@ select.innerHTML = `
 <option>${email.onion7}</option>
 
 `;
-
-
-
-
-
-
-
-
-
