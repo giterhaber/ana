@@ -42,7 +42,7 @@ form.addEventListener('submit', (e) => {
   setTimeout(() => {
     if (password.value == 'testpassword') {
       console.log('good')
-      location.href = './form.php'
+      location.href = './form.php' 
 
     } 
     else {
