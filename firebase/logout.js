@@ -14,3 +14,7 @@ firebase.auth().onAuthStateChanged((user) => {
       location.href = "./index.php";
     }
   });
+
+  setTimeout(() => {
+    signoutpage()
+  }, 1200000);

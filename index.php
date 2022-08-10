@@ -18,18 +18,18 @@ echo 'breg';
 <body>
 
 <form class="form">
-	<h3 class="form__title">Sign In</h3>
+	<h3 class="form__title" hidden>Sign In</h3>
 	<div id="user" class="form__box error">
 		<label for="email"><i class="fas fa-user"></i></label>
 		<input class="form__input" id="email" type="text" placeholder="Email"/>
 	</div>
-		<p class="form__error email">Invalid Error</p>
+		<p class="form__error email" hidden>Invalid Error</p>
 		<div class="form__box">
 			<label for="password"><i class="fas fa-lock"></i></label>
 			<input class="form__input" id="password" type="password" placeholder="Password"/>
 	</div>
 			<p class="form__error password"></p>
-			<button class="form__btn">Submit</button>
+			<button class="form__btn" hidden>Submit</button>
 			<p class="form__error submit"></p>
 </form>
 
