@@ -7,7 +7,7 @@ const editSection2 = document.getElementById('editSection2');
 
 
 function signature(id64) {
-    var apiText = `http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=1D44637D2A3CEEF85B9DCE9D42B54C08&steamids=${id64}`
+    var apiText = `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=1D44637D2A3CEEF85B9DCE9D42B54C08&steamids=${id64}`
     console.log(apiText)
 
     $.getJSON(apiText, function(data) { 
