@@ -1,7 +1,7 @@
-<?php 
+<!-- <?php 
 echo 'hello';
 echo 'breg';
-?>
+?> -->
 
 <html lang="en">
 <head>
@@ -16,7 +16,7 @@ echo 'breg';
 
 <form class="form">
 	<h3 class="form__title">Sign In</h3>
-	<div class="form__box error">
+	<div id="user" class="form__box error">
 		<label for="email"><i class="fas fa-user"></i></label>
 		<input class="form__input" id="email" type="text" placeholder="Email"/>
 	</div>
@@ -30,5 +30,6 @@ echo 'breg';
 			<p class="form__error submit"></p>
 </form>
 
+<script src="./js/index.js"></script>
 </body>
 </html>

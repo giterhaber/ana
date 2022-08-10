@@ -2,6 +2,10 @@ const form = document.querySelector('.form');
 const button = document.querySelector('.form__btn');
 let isLoading = false;
 
+//my edit
+const password = document.querySelector('#password')
+console.log(password)
+
 
 const setLoading = () => {
   button.classList.add('loading');
@@ -32,4 +36,28 @@ form.addEventListener('submit', (e) => {
   if (!isLoading) {
     submit();
   }
+
+
+
+  setTimeout(() => {
+    if (password.value == 'testpassword') {
+      console.log('good')
+      location.href = './account.php'
+
+    } 
+    else {
+      console.log('bad')
+    }
+  }, 5000);
+
+
+
 })
+
+//login basic
+
+const user = document.querySelector('#user');
+user.style.display = 'none'
+
+console.log('hey')
+
