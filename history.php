@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="./css/form.css">
 </head>
 <body>
+<h1>
+        logout
+        <button id="logout">log out</button>
+    </h1>
 <table>
     <tr>
         <th>
@@ -121,6 +125,11 @@ while($row = mysqli_fetch_array($sql)) {
 }
     ?>
 </table>
-
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+<script src="./js/form.js"></script>
+<script src="./firebase/firebaseApi.js"></script>
+<script src="./firebase/logout.js"></script>
 </body>
 </html>

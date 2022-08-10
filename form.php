@@ -10,10 +10,12 @@
 
     <link rel="stylesheet" href="./css/form.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
 </head>
 <body>
+    <h1>
+        logout
+        <button id="logout">log out</button>
+    </h1>
     <h1>test</h1>
 
     <form id="accountForm">
@@ -159,8 +161,16 @@
 </table>
 
 </div>
-
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
 <script src="./js/form.js"></script>
-<script src="./js/api.js"></script>
+<script src="./firebase/firebaseApi.js"></script>
+<script src="./firebase/logout.js"></script>
+
 </body>
+
+<script>
+    
+</script>
 </html>

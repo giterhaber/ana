@@ -11,6 +11,9 @@ echo 'breg';
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./css/index.scss">
+
+
+	<!-- <script src="./firebase/cdnHeader.js"></script> -->
 </head>
 <body>
 
@@ -30,6 +33,13 @@ echo 'breg';
 			<p class="form__error submit"></p>
 </form>
 
+
+
+
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+<script src="./firebase/firebaseApi.js"></script>
 <script src="./js/index.js"></script>
 </body>
 </html>
